@@ -1,0 +1,136 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+@import "compass";
+
+body{	
+	background-color: #434343;	
+}
+
+.header{
+	padding-top: 20px;
+	height:133px;	
+	background-image: url("../images/templatemo_top_bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.container{
+	
+}
+
+.menu div{	
+	
+}
+
+.box{
+	border: 2px solid #FFFFFF;
+	width: 45px;
+	height: 38px;
+	float: left;
+	padding: 0px;
+	
+	line-height: 35px;
+	text-align: center;
+}
+
+.boxbottom {
+	border-bottom: 2px solid #FFFFFF;
+	width: 280px;
+	height: 38px;
+	float: left;
+	margin-left: 4px;
+	padding-top: 0px;
+	letter-spacing: 10px;
+}
+
+#title{
+	font-family: "Times New Roman", Times, serif;
+	
+	
+	color:white;
+	padding:0px;
+	margin:0px;
+	h1, a{
+		padding:0px;
+		margin:0px;
+		color:white;
+	}
+	h1{
+		height:40px;
+		a{
+			font-family: "Times New Roman", Times, serif;
+			font-size: 35px;
+			
+		}
+	}
+	a{
+		font-family: Tahoma,Geneva,sans-serif;
+		font-size:16px;
+		
+	}
+}
+
+#topsection {
+	background-image: url(../images/templatemo_middle_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: auto;
+	background-color: #346C7C;
+	text-align: left;
+	padding: 10px;
+	color: #CCCCCC;
+}
+
+#midsection {
+	background-image: url(../images/templatemo_middle_2_bg.jpg);
+	background-repeat: repeat-x;
+	color:white;
+	background-color: #434343;
+
+	h2{
+		color: #0A90B0;
+		font-weight: normal;
+	}
+}
+
+#footer {
+	background-color: #212121;
+	border-top: 3px solid #000000;
+	height: 100px;
+	clear: both;
+	color: #CCCCCC;
+}
+
+#menu {
+	float: right;
+	height: 43px;
+	margin-top: 10px;
+	
+	ul {
+		float: right;
+		list-style: none outside none;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	li {
+		display: inline;		
+	}
+	 a {		
+		color: #FFFFFF;
+		float: left;
+		font-size: 15px;
+		line-height: 32px;
+		height: 32px;
+		outline: medium none;
+		padding: 0px;
+		text-align: center;
+		text-decoration: none;
+		width: 101px;
+		background-color: #0A90B0;
+		margin-left: 5px;
+		@include border-top-radius(5px);
+		@include background(linear-gradient(top, #0A90B0, darken(#0A90B0,20%)));
+		@include single-box-shadow;
+	}
+}
